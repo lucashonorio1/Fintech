@@ -1,0 +1,37 @@
+*{
+    border: 0; /* BORDA DO ELEMENTO - ZERAR */
+    margin: 0; /* DISTANCIA EXTERNA - ZERAR */
+    padding: 0; /* ESPAÇAMENTO INTRNO - ZERAR */
+    box-sizing: border-box; /* RESPEITAR ALTURA E LARGURA */
+}
+
+:root{
+    --color-primary: #9130F4;
+    --color-secondary: #121139;
+    --color-neutral-white: #F4F4F4;
+
+
+    --font-size-h1:54px;
+    --font-size-h2:45px;
+    --font-size-h3:35px;
+    --font-size-h4:30px;
+    --font-size-h5:25px;
+    --font-size-body:16px;
+    --font-size-button:16px;
+    --font-size-caption:14px;
+
+    --font-weight-h1:700px;
+    --font-weight-h2:700px;
+    --font-weight-h3:700px;
+    --font-weight-h4:500px;
+    --font-weight-h5:400px;
+    --font-weight-body:400px;
+    --font-weight-button:700px;
+    --font-weight-caption:400px;
+
+    --font-family-primary:"inter" sans-serif;
+}
+
+
+
+

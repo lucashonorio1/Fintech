@@ -1,0 +1,37 @@
+@import url("./global.css");
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46px;
+    border-bottom: 10px solid var(--color-color-primary);
+    background-color: var(--color-secondary);
+}
+
+.container-nav-header{
+    display: flex;
+    align-items: center;
+    gap: 46px;
+}
+.navigation-header ul {
+    display: flex;
+    gap: 45px;
+    list-style: none;
+}
+.navigation-header ul li a{
+    text-decoration: none;
+    font-family: var(--color-neutral-whithe);
+    color: var(--color-neutral-white);
+}
+.btn-header {
+    font-family: var(--font-family-primary);
+    text-decoration: none;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: var(--font-weight-button);
+    color: var(--color-neutral-white);
+}
+
+
