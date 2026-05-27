@@ -1,6 +1,6 @@
 @import url("./global.css");
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,23 +9,25 @@ header{
     background-color: var(--color-secondary);
 }
 
-.container-nav-header{
+.container-nav-header {
     display: flex;
     align-items: center;
     gap: 46px;
 }
+
 .navigation-header ul {
     display: flex;
     gap: 45px;
     list-style: none;
 }
-.navigation-header ul li a{
+
+.navigation-header ul li a {
     text-decoration: none;
     font-family: var(--color-neutral-whithe);
     color: var(--color-neutral-white);
 }
 
-.navigation-header ul li menu-active{
+.navigation-header ul li menu-active {
     color: var(--color-neutral-white);
 }
 
@@ -47,10 +49,11 @@ main {
     background-color: var(--color-secondary);
     padding: 50px 0;
 }
+
 .main-content {
     display: flex;
     flex-direction: column;
-    width:497px;
+    width: 497px;
     gap: 25px;
     color: var(--color-neutral-white);
     align-items: start;
@@ -70,9 +73,10 @@ main {
     font-family: var(--font-family-primary);
     color: var(--color-neutral-white);
 }
+
 .btn-primary {
     border: 1px solid var(--color-primary);
-    color: var(--color-neutral-white); 
+    color: var(--color-neutral-white);
     padding: 10px;
 }
 
@@ -89,17 +93,52 @@ main {
     gap: 30px 0;
 }
 
-.container-item-services h2{
+.container-item-services h2 {
     color: var(--color-secondary);
     font-family: var(--font-family-primary);
     font-size: var(--font-size-h2);
 }
-.container-item-services span{
+
+.container-item-services span {
     color: var(--color-primary);
 }
 
 .container-item-services p {
     color: var(--color-secondary);
     font-family: var(--font-family-primary);
-    
+
+}
+
+.section-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    background-color: var(--color-secondary);
+    justify-content: center;
+}
+
+.content-details {
+    display: flex;
+    flex-direction: column;
+    width: 730px;
+    padding: 60px;
+    justify-content: center;
+}
+
+.content-details h2 {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h2);
+    color: var(--color-neutral-white);
+    margin-bottom: 16px;
+}
+
+.content-details p {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-neutral-white);
+}
+
+.content-details span {
+    color: var(--color-primary);
 }
