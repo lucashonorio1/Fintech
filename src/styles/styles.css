@@ -76,3 +76,30 @@ main {
     padding: 10px;
 }
 
+.section-services {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin: 60px;
+}
+
+.container-item-services {
+    flex-direction: column;
+    display: flex;
+    gap: 30px 0;
+}
+
+.container-item-services h2{
+    color: var(--color-secondary);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h2);
+}
+.container-item-services span{
+    color: var(--color-primary);
+}
+
+.container-item-services p {
+    color: var(--color-secondary);
+    font-family: var(--font-family-primary);
+    
+}
